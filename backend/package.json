@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,9 @@
     "better-sqlite3": "^12.9.0",
     "cors": "^2.8.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.1",
+    "supertest": "^7.2.2"
   }
 }

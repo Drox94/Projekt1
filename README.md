@@ -203,6 +203,22 @@ Wszystkie endpointy zwracają i przyjmują dane w formacie **JSON**.
    - Średnia kwota wydatku
 2. Wartości aktualizują się automatycznie po każdej zmianie danych
 
+## 🧪 Testy
+
+Backend zawiera 12 testów jednostkowych API napisanych w Jest + Supertest.
+
+### Uruchomienie testów
+
+```bash
+cd backend
+npm test
+```
+
+### Pokrycie testów
+
+- **Wydatki:** GET (lista i pojedynczy), POST (poprawny i z błędnymi danymi), PUT, DELETE (poprawny i nieistniejący)
+- **Kategorie:** GET, POST (poprawny, brak nazwy, duplikat)
+
 ## 📁 Struktura projektu
 Projekt1/
 ├── backend/
