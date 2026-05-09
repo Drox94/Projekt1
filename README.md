@@ -47,7 +47,7 @@ Aplikacja webowa do rejestrowania i zarządzania domowymi wydatkami. Projekt zal
 ### 1. Sklonuj repozytorium
 
 ```bash
-git clone https://github.com/twoja-nazwa/Projekt1.git
+git clone https://github.com/Drox94/Projekt1.git
 cd Projekt1
 ```
 
